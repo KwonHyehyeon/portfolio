@@ -47,8 +47,8 @@
 
 .sec1-left .main__logo {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 79%;
+    left: 3%;
     background-color: rgba(225, 225, 225, 0.1);
     /* 선택이나 클릭 안되게 할 때 */
     user-select: none;
