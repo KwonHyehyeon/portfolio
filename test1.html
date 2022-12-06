@@ -105,6 +105,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
         <script>
+            // 스무스 효과
             gsap.registerPlugin(ScrollTrigger);
 
             const lenis = new Lenis({
@@ -119,6 +120,7 @@
 
             requestAnimationFrame(raf)
 
+
             // right__tit 마우스 오버 효과
             const container = document.querySelector(".container");
 
@@ -132,6 +134,29 @@
                     y: -y
                 });
             });
+
+            // 로고 돌아감
+            window.addEventListener("scroll", function (event) {
+                let scroll = this.scrollY;
+                document.querySelector('.text').style.transform = "rotate(-" + scroll / 8 + "deg)";
+            });
+
+            // 
+            // const tl = gsap.timeline({
+            //     scrollTrigger: {
+            //         trigger: ".img-wrap .img",
+            //         scrub: true
+            //     }
+            // })
+            //     // 세미콜론찍으면 안됨 이어서 하는 거라서
+            //     .to(".main__logo", {
+            //         y: -1000,
+            //         scrub: true,
+            //         // 하나하나 시간차 두고 움직이게 하는 것
+            //         stagger: .2,
+            //         easing: "power1.out"
+
+            //     })
         </script>
 
         <script>
