@@ -1,0 +1,363 @@
+/* section1 */
+#section1 {
+    height: 25000px;
+    background: #ccc;
+}
+
+/* sec1 */
+.sec1-1 {
+    display: flex;
+    height: 50000px;
+    flex-wrap: wrap;
+}
+
+.sec1-1 .sec1-left {
+    width: 50%;
+    position: sticky;
+    top: 0px;
+    height: 100vh;
+    overflow: hidden;
+    background: #F4B5C6;
+}
+
+.sec1-1 .sec1-left>h2 {
+    font-size: 14vw;
+    font-family: 'Thesignature';
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 50px;
+    z-index: 1000;
+
+}
+
+.about>img {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    padding-top: 13vh;
+}
+
+.about>img:nth-child(2) {
+    position: absolute;
+    top: 3%;
+    left: 0;
+    padding-top: 13vh;
+}
+
+.sec1-left .main__logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(225, 225, 225, 0.1);
+    /* 선택이나 클릭 안되게 할 때 */
+    user-select: none;
+    pointer-events: none;
+    transition:
+        background-color 0.3s,
+        border-color 0.3s,
+        /* style 2에 트랜스폼줬으니 여기도 줘야함 */
+        transform 0.6s,
+        border-radius 0.3s;
+    z-index: 9999;
+}
+
+.circle {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+}
+
+
+.logo {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background-size: cover;
+    border-radius: 50%;
+    background-image: url(../img/woman_running_3d.png);
+}
+
+.text {
+    /* position: absolute; */
+    width: 50%;
+    height: 100%;
+    color: #fff;
+}
+
+/* @keyframes rotateText {
+    0% {
+        transform: rotate(360deg);
+    }
+} */
+
+.text span {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    font-size: 0.8em;
+    transform-origin: 0 67px;
+}
+
+.circle .mark__img {
+    width: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sec1-1 .sec1-right {
+    width: 50%;
+    /* height: 5000px; */
+    background: #58BEF1;
+}
+
+.right__title {
+    height: 70px;
+    overflow: hidden;
+    outline: 1px transparent;
+    padding-bottom: 100vh;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.right__title {
+    position: relative;
+}
+
+.right__tit {
+
+    font-family: 'OKChan';
+    font-size: 10vw;
+    font-weight: normal;
+    color: #fff;
+    -webkit-text-stroke: 0.4px #FC80A1;
+    line-height: 1;
+    text-shadow: -2px 0 #FC80A1, 0 2px #FC80A1, 2px 0 #FC80A1, 0 -2px #FC80A1;
+    margin-top: 2vh;
+    position: sticky;
+    top: 0;
+}
+
+.right__tit>li {
+    margin-bottom: 1vh;
+}
+
+.container {
+    height: 10vw;
+    overflow: hidden;
+    outline: 1px transparent;
+}
+
+.ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.menu-mask {
+    margin-top: 1.2vw;
+    font-family: 'OKChan';
+    font-size: 10vw;
+    font-weight: normal;
+    color: #FC80A1;
+    -webkit-text-stroke: 0.4px #fff;
+    line-height: 1;
+    text-shadow: -2px 0 #fff, 0 2px #fff, 2px 0 #fff, 0 -2px #fff;
+}
+
+.menu-mask>li {
+    margin-bottom: 1vh;
+}
+
+.right__tit {
+    font-family: 'OKChan';
+    font-size: 10vw;
+    font-weight: normal;
+    color: #fff;
+    -webkit-text-stroke: 0.4px #FC80A1;
+    line-height: 1;
+    text-shadow: -2px 0 #FC80A1, 0 2px #FC80A1, 2px 0 #FC80A1, 0 -2px #FC80A1;
+}
+
+/* .sec1-title1 {
+    position: sticky;
+    top: 4vh;
+    height: 20vh;
+
+}
+
+.sec1-title2 {
+    position: sticky;
+    top: 0vh;
+    height: 20vh;
+
+}
+
+.sec1-title3 {
+    position: sticky;
+    top: 0;
+    height: 20vh;
+} */
+.sec1-title4 {
+    color: #fff;
+    font-family: 'NanumBarunpen';
+    font-size: 1.5vw;
+    line-height: 1.6;
+    margin: 36vw 0vw 2vw 2vw;
+    width: 30vw;
+    text-align: right;
+    float: right;
+    /* position: sticky; */
+    /* height: 20vh; */
+    /* top: 50vh; */
+}
+
+.about__title {
+    margin: 7vw 2vw 2vw 2vw;
+}
+
+
+.about__tit {
+    font-family: 'OKChan';
+    font-size: 10vw;
+    font-weight: normal;
+    color: #fff;
+    -webkit-text-stroke: 0.4px #FC80A1;
+    line-height: 1;
+    text-shadow: -2px 0 #FC80A1, 0 2px #FC80A1, 2px 0 #FC80A1, 0 -2px #FC80A1;
+}
+
+.about__tit>li {
+    margin-bottom: 1vh;
+}
+
+.about-title1 {
+    position: sticky;
+    top: 0;
+}
+
+.about-title2 {
+    position: sticky;
+    top: 0;
+}
+
+.about-title3 {
+    position: sticky;
+    top: 0;
+}
+
+/* sec2 */
+.sec1-2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sec1-2 .left {
+    width: 50%;
+    height: 5000px;
+    background: #58BEF1;
+}
+
+.sec1-2 .right {
+    position: sticky;
+    top: 0px;
+    width: 50%;
+    height: 100vh;
+    background: #FAE94B;
+    overflow: hidden;
+}
+
+/* sec3 */
+.sec1-3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sec1-3 .left {
+    width: 50%;
+    height: 100vh;
+    position: sticky;
+    top: 0px;
+    background: #F4B5C6;
+    overflow: hidden;
+}
+
+.sec1-3 .right {
+    width: 50%;
+    height: 5000px;
+    background: #58BEF1;
+}
+
+
+.sec1-4 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sec1-4 .left {
+    width: 50%;
+    height: 5000px;
+    background: #58BEF1;
+
+}
+
+.sec1-4 .right {
+    position: sticky;
+    top: 0px;
+    width: 50%;
+    height: 100vh;
+    background: #000;
+    overflow: hidden;
+}
+
+
+/* section2 */
+#section2 {
+    height: 4000px;
+    background: #ccc;
+}
+
+#section2 h3 {
+    border: 2px solid #000;
+    font-size: 16px;
+    line-height: 1.2;
+    font-family: 'Lexend';
+    font-weight: normal;
+    text-transform: capitalize;
+    padding: 5px;
+    margin-bottom: 10px;
+    position: sticky;
+    top: 0px;
+    background: #fff;
+    z-index: 1000;
+}
+
+
+/* *,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+
+
+
+/* body {
+    font-family: "Monument";
+    font-size: 80px;
+    line-height: 70px;
+    background: #70b8ff;
+    overflow: hidden;
+} */

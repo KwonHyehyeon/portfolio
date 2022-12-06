@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="assets/css/main1.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <main id="main">
+        <section id="section1">
+            <div class="sec1-wrap">
+                <div class="sec1-1">
+                    <div class="sec1-left">
+                        <h2>Portfolio</h2>
+                        <div class="about">
+                            <img src="./assets/img/mainimg1.png" alt="메인이미지1">
+                            <img src="./assets/img/mainimg2.png" alt="메인이미지2">
+                        </div>
+                        <div class="main__logo">
+                            <a href="#">
+                                <div class="circle">
+                                    <div class="logo">
+                                    </div>
+                                    <div class="text">
+                                        <p>
+                                            프론트엔드 개발자 반드시 되고 말테야...다 드루와!
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="sec1-right">
+                        <div class="right__title">
+                            <ul class="right__tit ul">
+                                <li>프론트</li>
+                                <li>할거당</li>
+                                <li>다댐벼</li>
+                            </ul>
+                            <div class="container">
+                                <ul class="menu-mask ul">
+                                    <li>프론트</li>
+                                    <li>할거당</li>
+                                    <li>다댐벼</li>
+                                </ul>
+                            </div>
+                            <div class="sec1-title4">
+                                노력은 결코 배신하지 않는다는 말을 굳게 믿어,
+                                이루고자 하는 바가 있다면 노력의 끝이 보일 때까지 달려갑니다.
+                                신입의 열정을 가지고 성실하고 겸손하게 끝까지 나아가는
+                                프로트엔드 개발자가 되겠습니다.
+                            </div>
+                        </div>
+                        <div class="about__title">
+                            <ul class="about__tit">
+                                <li class="about-title1">권세권</li>
+                                <li class="about-title2">은혜혜</li>
+                                <li class="about-title3">솥귀현</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="sec1-2">
+                    <div class="left">sec1-2-left</div>
+                    <div class="right">
+                        <div class="about">
+                            <img src="https://kwonhyehyeon.github.io/Potfolio/assets/img/mainimg2.png" alt="ss">
+                        </div>
+                    </div>
+                </div>
+                <div class="sec1-3">
+                    <div class="left">
+                        <div class="about">
+                            <img src="https://kwonhyehyeon.github.io/Potfolio/assets/img/mainimg2.png" alt="ss">
+                        </div>
+                    </div>
+                    <div class="right">sec1-3-right</div>
+                </div>
+                <div class="sec1-4">
+                    <div class="left">sec1-4-left</div>
+                    <div class="right">
+                        <div class="about">
+                            <img src="https://kwonhyehyeon.github.io/Potfolio/assets/img/mainimg2.png" alt="ss">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section2">
+            <h3>section2</h3>
+        </section>
+
+
+
+        <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@latest/bundled/lenis.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+        <script>
+            gsap.registerPlugin(ScrollTrigger);
+
+            const lenis = new Lenis({
+                duration: 1.2,
+                easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+            })
+
+            function raf(time) {
+                lenis.raf(time)
+                requestAnimationFrame(raf)
+            }
+
+            requestAnimationFrame(raf)
+
+            const container = document.querySelector(".container");
+
+            document.body.addEventListener("mousemove", e => {
+                const x = e.clientX;
+                const y = e.clientY - 35;
+                gsap.to(container, {
+                    y: y
+                });
+                gsap.to(".menu-mask", {
+                    y: -y
+                });
+            });
+        </script>
+
+        <script>
+            // 돌아가는 글씨 간격조절
+            const text = document.querySelector('.text p');
+            text.innerHTML = text.innerText.split("").map(
+                (char, i) =>
+                    `<span style="transform:rotate(${i * 12.7}deg)">${char}</span>`
+            ).join("");
+
+            // const cursor = document.querySelector(".mouse__cursor")
+
+            // window.addEventListener("mousemove", (e) => {
+            //     //const cursor = document.querySelector(".mouse__cursor")
+            //     //커서에 포지션 되어있기 때문에 left
+            //     //px 처럼 단위값을 써주어야 실행됨
+            //     cursor.style.left = e.clientX - 75 + "px";
+            //     cursor.style.top = e.clientY - 70 + "px";
+            // });
+
+        </script>
+    </main>
+</body>
+
+</html>
