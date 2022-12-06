@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Thesignature';
+    src: url('../fonts/Thesignature.eot');
+    src: url('../fonts/Thesignature.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Thesignature.woff2') format('woff2'),
+        url('../fonts/Thesignature.woff') format('woff'),
+        url('../fonts/Thesignature.ttf') format('truetype'),
+        url('../fonts/Thesignature.svg#Thesignature') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'OKChan';
+    font-weight: normal;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/ok/OKChan.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/ok/OKChan.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/ok/OKChan.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/ok/OKChan.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/ok/OKChan.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NanumBarunpen';
+    font-weight: 400;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NanumBarunpen/NanumBarunpen-Regular.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NanumBarunpen/NanumBarunpen-Regular.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NanumBarunpen/NanumBarunpen-Regular.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NanumBarunpen/NanumBarunpen-Regular.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NanumBarunpen/NanumBarunpen-Regular.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NanumBarunpen';
+    font-weight: 700;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NanumBarunpen/NanumBarunpen-Bold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NanumBarunpen/NanumBarunpen-Bold.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NanumBarunpen/NanumBarunpen-Bold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NanumBarunpen/NanumBarunpen-Bold.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NanumBarunpen/NanumBarunpen-Bold.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GmarketSans';
+    font-weight: 300;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GmarketSans';
+    font-weight: 500;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GmarketSans';
+    font-weight: 700;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.ttf') format("truetype");
+    font-display: swap;
+}

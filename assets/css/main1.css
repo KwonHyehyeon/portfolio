@@ -1,0 +1,277 @@
+body {
+    background-color: #58BEF1;
+}
+
+/* 메인페이지 */
+.main__wrap {
+    width: 100%;
+    height: 100vh;
+}
+
+.main__left {
+    width: 50%;
+    background-color: #F4B5C6;
+    position: fixed;
+}
+
+.main__left .main__left__title {
+    font-size: 200px;
+    font-family: 'Thesignature';
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 50px;
+    z-index: 9999;
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main__img>img {
+    width: 100%;
+    margin-top: 120px;
+    user-select: none;
+}
+
+.main__img>img:nth-child(1) {
+    position: relative;
+}
+
+.main__img>img:nth-child(2) {
+    width: 100%;
+    position: absolute;
+    top: -6.2%;
+    left: 0;
+    opacity: 0;
+    transition: all 0.2s;
+}
+
+.main__img:hover>img:nth-child(2) {
+    opacity: 1;
+}
+
+.main__img__inner:hover .sunglasses {
+    top: 27%;
+    left: 49%;
+}
+
+.sunglasses {
+    position: absolute;
+    width: 38%;
+    top: 42%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s;
+}
+
+.main__right {
+    width: 50%;
+    height: 1000px;
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: #58BEF1; */
+}
+
+.main__right__title {
+    font-family: 'OKChan';
+    font-size: 150px;
+    font-weight: normal;
+    color: #fff;
+    -webkit-text-stroke: 0.4px #FC80A1;
+    line-height: 1;
+    text-shadow: -2px 0 #FC80A1, 0 2px #FC80A1, 2px 0 #FC80A1, 0 -2px #FC80A1;
+    margin-left: 2rem;
+}
+
+.main__desc {
+    color: #fff;
+    font-family: 'NanumBarunpen';
+    font-size: 20px;
+    line-height: 1.6;
+    width: 100%;
+    margin-top: 13rem;
+    margin-bottom: 100px;
+    margin-left: 2rem;
+}
+
+.main__desc img {
+    width: 100px;
+    height: 100px;
+}
+
+.pot__mark {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+
+.circle {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+}
+
+
+.logo {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background-size: cover;
+    border-radius: 50%;
+    background-image: url(../img/woman_running_3d.png);
+}
+
+.text {
+    /* position: absolute; */
+    width: 50%;
+    height: 100%;
+    animation: rotateText 15s linear infinite;
+    color: #fff;
+}
+
+@keyframes rotateText {
+    0% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+.text span {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    font-size: 0.8em;
+    transform-origin: 0 67px;
+}
+
+.circle .mark__img {
+    width: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main__info img {
+    width: 320px;
+    height: 450px;
+}
+
+.main__info p {
+    width: 320px;
+    font-family: 'NanumBarunpen';
+    color: #fff;
+    line-height: 1.7;
+    margin-top: 0.5rem;
+    font-size: 18px;
+}
+
+.main__info .myinfo1>img {
+    /* position: absolute;
+    top: 100%;
+    left: 5%; */
+    border: 13px solid #FF8B39;
+    border-radius: 15px;
+    margin-top: 10rem;
+    margin-left: 2rem;
+}
+
+.main__info .myinfo1 .info__desc1 {
+    margin-left: 2rem;
+}
+
+.main__info .myinfo2>img {
+    /* position: absolute;
+    top: 170%;
+    right: 15%; */
+    border: 13px solid #5BB25B;
+    border-radius: 15px;
+    margin-top: 10rem;
+    margin-left: 21rem;
+}
+
+.main__info .myinfo2 .info__desc2 {
+    margin-left: 21rem;
+}
+
+.main__info .myinfo3>img {
+    /* position: absolute;
+    top: 240%;
+    left: 5%; */
+    border: 13px solid #FF6CA4;
+    border-radius: 15px;
+    margin-top: 10rem;
+    margin-left: 2rem;
+}
+
+.main__info .myinfo3 .info__desc3 {
+    margin-left: 2rem;
+}
+
+.main__info .myinfo4>img {
+    /* position: absolute;
+    top: 310%;
+    right: 15%; */
+    border: 13px solid #E8AA09;
+    border-radius: 15px;
+    margin-top: 10rem;
+    margin-left: 21rem;
+}
+
+.main__info .myinfo4 .info__desc4 {
+    margin-left: 21rem;
+}
+
+.main__info .myinfo5>img {
+    /* position: absolute;
+    top: 380%;
+    left: 5%; */
+    border: 13px solid #90595D;
+    border-radius: 15px;
+    margin-top: 10rem;
+    margin-left: 2rem;
+}
+
+.main__info .myinfo5 .info__desc5 {
+    margin-left: 2rem;
+    margin-bottom: 10rem;
+}
+
+
+.page1 {
+    width: 50%;
+    background-color: #000;
+    height: 100vh;
+}
+
+.page2 {
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+    margin-left: 0rem;
+}
+
+/* works */
+.main__wrap2 {
+    margin-top: 10000px;
+    width: 100%;
+    height: 150vh;
+}
+
+.main2__left {
+    width: 50%;
+    background-color: #F4B5C6;
+    position: absolute;
+}
