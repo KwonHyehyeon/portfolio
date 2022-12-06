@@ -135,7 +135,6 @@
 }
 
 .right__tit {
-
     font-family: 'OKChan';
     font-size: 10vw;
     font-weight: normal;
@@ -165,7 +164,7 @@
 }
 
 .menu-mask {
-    margin-top: 1.2vw;
+    margin-top: 1vw;
     font-family: 'OKChan';
     font-size: 10vw;
     font-weight: normal;
