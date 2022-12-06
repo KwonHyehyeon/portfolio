@@ -1535,7 +1535,6 @@
     color: #000;
     background-color: #4CBDF0;
     font-family: 'NanumBarunpen';
-    margin: 2rem;
     /* position: absolute;
     top: 0;
     left: 0; */
@@ -1543,10 +1542,12 @@
     margin-top: -70px;
 }
 
+.searchgame {
+    text-align: center;
+}
+
 .searchgame>img {
-    display: block;
-    height: 400px;
-    margin: 0 auto;
+    width: 60%;
 }
 
 .searchgame>p {
@@ -1576,7 +1577,6 @@
     color: #000;
     background-color: #4CBDF0;
     font-family: 'NanumBarunpen';
-    margin: 2rem;
     /* position: absolute;
     top: 0;
     left: 0; */
@@ -1584,10 +1584,12 @@
     margin-top: -70px;
 }
 
+.memorygame {
+    text-align: center;
+}
+
 .memorygame>img {
-    display: block;
-    height: 500px;
-    margin: 0 auto;
+    width: 50%;
 }
 
 .memorygame>p {
