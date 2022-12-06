@@ -425,9 +425,9 @@
     overflow: hidden;
 }
 
-.webresponsive__img:hover .img-scroll {
+/* .webresponsive__img:hover .img-scroll {
     animation: scroll 8s infinite ease-in-out;
-}
+} */
 
 .webresponsive__site {
     margin: 2rem;
@@ -441,18 +441,18 @@
     overflow: hidden;
 }
 
-.webresponsive960:hover .img-scroll {
+/* .webresponsive960:hover .img-scroll {
     animation: scroll 8s infinite ease-in-out;
-}
+} */
 
 .webresponsive__site .webresponsive480 {
     width: 40%;
     overflow: hidden;
 }
 
-.webresponsive480:hover .img-scroll {
+/* .webresponsive480:hover .img-scroll {
     animation: scroll 8s infinite ease-in-out;
-}
+} */
 
 .webresponsive__desc {
     color: #fff;
@@ -614,9 +614,9 @@
     overflow: hidden;
 }
 
-.react__img:hover .img-scroll {
+/* .react__img:hover .img-scroll {
     animation: scroll 8s infinite ease-in-out;
-}
+} */
 
 .react__desc {
     color: #fff;
@@ -684,9 +684,9 @@
     background-color: #000;
 }
 
-.react3:hover .img-scroll {
+/* .react3:hover .img-scroll {
     animation: scroll 8s infinite ease-in-out;
-}
+} */
 
 .react4 {
     width: 32%;
@@ -738,9 +738,9 @@
     overflow: hidden;
 }
 
-.vue__img:hover .img-scroll {
+/* .vue__img:hover .img-scroll {
     animation: scroll 8s infinite ease-in-out;
-}
+} */
 
 .vue__desc {
     color: #fff;
@@ -811,9 +811,9 @@
     overflow: hidden;
 }
 
-.php__img:hover .img-scroll {
+/* .php__img:hover .img-scroll {
     animation: scroll 8s infinite ease-in-out;
-}
+} */
 
 .php__desc {
     color: #fff;
@@ -1065,9 +1065,9 @@
     overflow: hidden;
 }
 
-.search__img:hover .img-scroll {
+/* .search__img:hover .img-scroll {
     animation: scroll 8s infinite ease-in-out;
-}
+} */
 
 .search__desc {
     color: #fff;
@@ -1090,9 +1090,9 @@
 }
 
 
-.search1>figure:hover .img-scroll {
+/* .search1>figure:hover .img-scroll {
     animation: scroll 8s infinite ease-in-out;
-}
+} */
 
 .search2 {
     display: flex;
@@ -1298,9 +1298,9 @@
     overflow: hidden;
 }
 
-.slide__img:hover .img-scroll {
+/* .slide__img:hover .img-scroll {
     animation: scroll 8s infinite ease-in-out;
-}
+} */
 
 .slide__desc {
     color: #fff;
@@ -1322,9 +1322,9 @@
 }
 
 
-.slide1>figure:hover .img-scroll {
+/* .slide1>figure:hover .img-scroll {
     animation: scroll 8s infinite ease-in-out;
-}
+} */
 
 .slide2 {
     display: flex;
@@ -1380,9 +1380,9 @@
     overflow: hidden;
 }
 
-.parallax__img:hover .img-scroll {
+/* .parallax__img:hover .img-scroll {
     animation: scroll 8s infinite ease-in-out;
-}
+} */
 
 .parallax__desc {
     color: #fff;
@@ -1404,9 +1404,9 @@
 }
 
 
-.parallax1>figure:hover .img-scroll {
+/* .parallax1>figure:hover .img-scroll {
     animation: scroll 8s infinite ease-in-out;
-}
+} */
 
 .parallax2 {
     display: flex;
