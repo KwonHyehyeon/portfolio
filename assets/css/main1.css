@@ -136,7 +136,7 @@
 
 .right__tit {
     font-family: 'OKChan';
-    font-size: 10vw;
+    font-size: 9vw;
     font-weight: normal;
     color: #fff;
     -webkit-text-stroke: 0.4px #FC80A1;
@@ -166,7 +166,7 @@
 .menu-mask {
     margin-top: 1vw;
     font-family: 'OKChan';
-    font-size: 10vw;
+    font-size: 9vw;
     font-weight: normal;
     color: #FC80A1;
     -webkit-text-stroke: 0.4px #fff;
@@ -176,16 +176,6 @@
 
 .menu-mask>li {
     margin-bottom: 1vh;
-}
-
-.right__tit {
-    font-family: 'OKChan';
-    font-size: 10vw;
-    font-weight: normal;
-    color: #fff;
-    -webkit-text-stroke: 0.4px #FC80A1;
-    line-height: 1;
-    text-shadow: -2px 0 #FC80A1, 0 2px #FC80A1, 2px 0 #FC80A1, 0 -2px #FC80A1;
 }
 
 /* .sec1-title1 {
@@ -212,7 +202,7 @@
     font-family: 'NanumBarunpen';
     font-size: 1.5vw;
     line-height: 1.6;
-    margin: 36vw 0vw 2vw 2vw;
+    margin: 30vw 0vw 2vw 2vw;
     width: 30vw;
     text-align: right;
     float: right;
@@ -228,7 +218,7 @@
 
 .about__tit {
     font-family: 'OKChan';
-    font-size: 10vw;
+    font-size: 9vw;
     font-weight: normal;
     color: #fff;
     -webkit-text-stroke: 0.4px #FC80A1;
