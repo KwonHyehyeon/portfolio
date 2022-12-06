@@ -47,8 +47,8 @@
 /* 메인 로고 */
 .sec1-left .main__logo {
     position: fixed;
-    margin-top: 11vw;
-    margin-left: 2vw;
+    margin-top: 28vw;
+    margin-left: 1vw;
     background-color: rgba(225, 225, 225, 0.1);
     /* 선택이나 클릭 안되게 할 때 */
     user-select: none;
