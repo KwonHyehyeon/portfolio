@@ -1771,3 +1771,153 @@
         transform: translateY(0px);
     }
 }
+
+
+.main__info img {
+    width: 20vw;
+    height: 50vh;
+}
+
+.main__info p {
+    width: 320px;
+    font-family: 'NanumBarunpen';
+    color: #fff;
+    line-height: 1.7;
+    margin-top: 0.5rem;
+    font-size: 18px;
+}
+
+.main__info .myinfo1 {
+    position: relative;
+}
+
+.main__info .myinfo1:hover .info__desc1 {
+    display: block;
+}
+
+.main__info .myinfo1>img {
+    border: 13px solid #FF8B39;
+    border-radius: 15px;
+    margin-top: 10rem;
+    margin-left: 19rem;
+}
+
+.main__info .myinfo1 .info__desc1 {
+    margin-left: 19rem;
+    text-align: center;
+    display: none;
+}
+
+.myinfo1 .icon1 {
+    width: 150px;
+    height: 150px;
+    border: 0 !important;
+    position: absolute;
+    top: -10%;
+    left: -10%;
+}
+
+.main__info .myinfo2 {
+    position: relative;
+}
+
+.main__info .myinfo2>img {
+    border: 13px solid #5BB25B;
+    border-radius: 15px;
+    margin-top: 10rem;
+    margin-left: 5rem;
+}
+
+.main__info .myinfo2 .info__desc2 {
+    margin-left: 5rem;
+    text-align: center;
+}
+
+.myinfo2 .icon2 {
+    width: 150px;
+    height: 180px;
+    border: 0 !important;
+    position: absolute;
+    top: -10%;
+    left: 35%;
+    transform: rotate(40deg);
+}
+
+.main__info .myinfo3 {
+    position: relative;
+}
+
+.main__info .myinfo3>img {
+    border: 13px solid #FF6CA4;
+    border-radius: 15px;
+    margin-top: 10rem;
+    margin-left: 19rem;
+}
+
+.main__info .myinfo3 .info__desc3 {
+    margin-left: 19rem;
+    text-align: center;
+}
+
+.myinfo3 .icon3 {
+    width: 150px;
+    height: 150px;
+    border: 0 !important;
+    position: absolute;
+    top: -10%;
+    left: -10%;
+    transform: rotate(-10deg);
+}
+
+.main__info .myinfo4 {
+    position: relative;
+}
+
+.main__info .myinfo4>img {
+    border: 13px solid #E8AA09;
+    border-radius: 15px;
+    margin-top: 10rem;
+    margin-left: 5rem;
+}
+
+.main__info .myinfo4 .info__desc4 {
+    margin-left: 5rem;
+    text-align: center;
+}
+
+.myinfo4 .icon4 {
+    width: 150px;
+    height: 150px;
+    border: 0 !important;
+    position: absolute;
+    top: -10%;
+    left: 35%;
+    transform: rotate(10deg);
+}
+
+.main__info .myinfo5 {
+    position: relative;
+}
+
+.main__info .myinfo5>img {
+    border: 13px solid #90595D;
+    border-radius: 15px;
+    margin-top: 10rem;
+    margin-left: 19rem;
+}
+
+.main__info .myinfo5 .info__desc5 {
+    margin-left: 19rem;
+    margin-bottom: 10rem;
+    text-align: center;
+}
+
+.myinfo5 .icon5 {
+    width: 180px;
+    height: 180px;
+    border: 0 !important;
+    position: absolute;
+    top: -12%;
+    left: -12%;
+    transform: rotate(40deg);
+}
