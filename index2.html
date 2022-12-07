@@ -84,10 +84,6 @@
                                     </p> -->
                                     <!-- <img class="icon1" src="./assets/img/sun_3d.png" alt="어바웃미장식1"> -->
                                 </div>
-
-                                <div class="card__text">
-                                    <span class="card__text--inner" data-splitting>Bright</span>
-                                </div>
                                 <div class="myinfo2">
                                     <img src="./assets/img/myinfo2.jpg" alt="어바웃미2">
                                     <!-- <p class="info__desc2">
@@ -167,16 +163,13 @@
             // 이미지 오버효과
             const m1 = document.querySelector(".about1");
             const bg = document.querySelector(".m1bg")
-            window.onload = function () {
-                m1.addEventListener("mouseover", () => {
-                    bg.classList.add("show")
-                })
-                m1.addEventListener("mouseleave", () => {
-                    bg.classList.remove("show")
-                })
-            }
+            m1.addEventListener("mouseover", () => {
+                bg.classList.add("show")
+            })
 
-
+            m1.addEventListener("mouseleave", () => {
+                bg.classList.remove("show")
+            })
 
 
             // 스무스 효과
@@ -229,16 +222,16 @@
                     easing: "power1.out",
                 })
 
-            gsap.registerPlugin(ScrollTrigger);
-            gsap.to(".sec1-left > h3", {
-                scrollTrigger: {
-                    trigger: ".sec1-left> h3",
-                    markers: false,
-                    start: "top center",
-                    scrub: true,
-                },
-                x: -400, duration: 4,
-            });
+            // gsap.registerPlugin(ScrollTrigger);
+            // gsap.to(".sec1-left > h3", {
+            //     scrollTrigger: {
+            //         trigger: ".sec1-left> h3",
+            //         markers: false,
+            //         start: "top center",
+            //         scrub: true,
+            //     },
+            //     x: -400, duration: 4,
+            // });
         </script>
 
         <script>
