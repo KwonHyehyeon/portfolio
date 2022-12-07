@@ -76,13 +76,17 @@
                                     </div>
                                 </div>
                                 <div class="myinfo1">
-                                    <figure>
-                                        <img class="about1" src="./assets/img/myinfo1.jpg" alt="어바웃미1">
+                                    <figure class="about1">
+                                        <img src="./assets/img/myinfo1.jpg" alt="어바웃미1">
                                     </figure>
                                     <!-- <p class="info__desc1">
                                         봄날의 햇살처럼, 다른 사람들과 따뜻함을 전하고 나눌 줄 아는 사람입니다.
                                     </p> -->
                                     <!-- <img class="icon1" src="./assets/img/sun_3d.png" alt="어바웃미장식1"> -->
+                                </div>
+
+                                <div class="card__text">
+                                    <span class="card__text--inner" data-splitting>Bright</span>
                                 </div>
                                 <div class="myinfo2">
                                     <img src="./assets/img/myinfo2.jpg" alt="어바웃미2">
@@ -159,6 +163,22 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
         <script>
+
+            // 이미지 오버효과
+            const m1 = document.querySelector(".about1");
+            const bg = document.querySelector(".m1bg")
+            window.onload = function () {
+                m1.addEventListener("mouseover", () => {
+                    bg.classList.add("show")
+                })
+                m1.addEventListener("mouseleave", () => {
+                    bg.classList.remove("show")
+                })
+            }
+
+
+
+
             // 스무스 효과
             gsap.registerPlugin(ScrollTrigger);
 
@@ -219,15 +239,6 @@
                 },
                 x: -400, duration: 4,
             });
-            // gsap.to(".box2-2", {
-            //     scrollTrigger: {
-            //         trigger: ".box2",
-            //         markers: true,
-            //         start: "top center",
-            //         scrub: 3,
-            //     },
-            //     x: 400, duration: 4,
-            // });
         </script>
 
         <script>
@@ -248,12 +259,7 @@
             //     cursor.style.top = e.clientY - 70 + "px";
             // });
 
-            // 이미지 오버효과
-            const m1 = document.querySelector(".about1");
 
-            m1.addEventListener("mouseenter", () => {
-                (".m1bg").style.opacity = "1";
-            })
         </script>
     </main>
 </body>
