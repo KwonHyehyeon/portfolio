@@ -356,7 +356,7 @@
 
 }
 
-.main__info .myinfo1>figure {
+.main__info .myinfo1>img {
     display: inline-block;
     border: 0.8vw solid #FF8B39;
     border-radius: 15px;
@@ -520,7 +520,12 @@
     -webkit-text-stroke: 0.4px #B680FC;
     line-height: 1;
     text-shadow: -2px 0 #B680FC, 0 2px #B680FC, 2px 0 #B680FC, 0 -2px #B680FC;
+}
 
+.works-titl {
+    position: sticky;
+    top: 3vh;
+    height: 100vh;
 }
 
 .works-title1 {
