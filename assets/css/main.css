@@ -301,6 +301,7 @@
     position: sticky;
     height: 20vh;
     top: 50vh;
+    word-break: keep-all;
 }
 
 .about__title {
@@ -316,6 +317,12 @@
     -webkit-text-stroke: 0.4px #FC80A1;
     line-height: 1;
     text-shadow: -2px 0 #FC80A1, 0 2px #FC80A1, 2px 0 #FC80A1, 0 -2px #FC80A1;
+}
+
+.about-titl {
+    position: sticky;
+    top: 3vh;
+    height: 100vh;
 }
 
 .about-title1 {
@@ -501,7 +508,6 @@
 
 .sec2 .sec2-left {
     width: 50%;
-    height: 5000px;
     background: #58BEF1;
 }
 
@@ -544,6 +550,26 @@
     position: sticky;
     top: 41vh;
     height: 62vh;
+}
+
+.works-title4 {
+    position: sticky;
+    top: 73vh;
+    height: 37vh;
+    color: #fff;
+    font-family: 'NanumBarunpen';
+    font-size: 1.5vw;
+    line-height: 1.3;
+    margin: 0vw 0vw 2vw 2vw;
+    text-align: right;
+    -webkit-text-stroke: 0;
+    text-shadow: none;
+}
+
+.works-title4-right {
+    width: 30vw;
+    float: right;
+    word-break: keep-all;
 }
 
 .sec2 .sec2-right {
