@@ -147,7 +147,7 @@
 }
 
 /* 메인 로고 */
-.sec1-left .main__logo {
+.main__logo {
     position: fixed;
     top: 43vw;
     left: 1vw;
