@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>portfolio</title>
 
     <link rel="stylesheet" href="assets/css/style.css">
 
@@ -15,7 +15,7 @@
     <main id="main">
         <section id="section1">
             <div class="sec1-wrap">
-                <div class="sec1-1">
+                <div class="sec1">
                     <div class="sec1-left">
                         <div class="sec1-tit">
                             <h2>Portfolio</h2>
@@ -67,9 +67,9 @@
                         </div>
                         <div class="about__title">
                             <ul class="about__tit">
-                                <li class="about-title1">권세권</li>
-                                <li class="about-title2">은혜혜</li>
-                                <li class="about-title3">솥귀현</li>
+                                <li class="about-title1">권혜현</li>
+                                <li class="about-title2">그녀는</li>
+                                <li class="about-title3">누군가</li>
                             </ul>
                             <div class="main__info">
                                 <div class="myinfo1">
@@ -120,25 +120,37 @@
                         </div>
                     </div>
                 </div>
-                <div class="sec1-2">
-                    <div class="left">sec1-2-left</div>
-                    <div class="right">
-                        <div class="about">
-                            <img src="https://kwonhyehyeon.github.io/Potfolio/assets/img/mainimg2.png" alt="ss">
+                <div class="sec2">
+                    <div class="sec2-left">
+                        <div class="works__title">
+                            <ul class="works__tit">
+                                <li class="works-title1">작업한</li>
+                                <li class="works-title2">거볼래</li>
+                                <li class="works-title3">드루와</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sec2-right">
+                        <div class="sec2-tit">
+                            <h2>Works</h2>
+                        </div>
+                        <div class="works">
+                            <img src="./assets/img/works1.png" alt="작업물메인사진">
+                            <!-- <img src="./assets/img/works2.png" alt="작업물메인사진"> -->
                         </div>
                     </div>
                 </div>
-                <div class="sec1-3">
-                    <div class="left">
+                <div class="sec3">
+                    <div class="sec3-left">
                         <div class="about">
-                            <img src="https://kwonhyehyeon.github.io/Potfolio/assets/img/mainimg2.png" alt="ss">
+                            <img src="https://kwonhyehyeon.github.io/Potfolio/assets/img/mainimg2.png" alt="작업물메인사진">
                         </div>
                     </div>
-                    <div class="right">sec1-3-right</div>
+                    <div class="sec3-right">sec1-3-right</div>
                 </div>
-                <div class="sec1-4">
-                    <div class="left">sec1-4-left</div>
-                    <div class="right">
+                <div class="sec4">
+                    <div class="sec4-left">sec1-4-left</div>
+                    <div class="sec4-right">
                         <div class="about">
                             <img src="https://kwonhyehyeon.github.io/Potfolio/assets/img/mainimg2.png" alt="ss">
                         </div>
@@ -160,7 +172,7 @@
             gsap.registerPlugin(ScrollTrigger);
 
             const lenis = new Lenis({
-                duration: 1.2,
+                duration: 5,
                 easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
             })
 
@@ -193,6 +205,7 @@
             });
 
             // 어바웃미
+            let speed = 100;
             const tl = gsap.timeline({
                 scrollTrigger: {
                     trigger: ".myinfo1",
@@ -202,44 +215,43 @@
                 .to(".sec1-tit> h2", {
                     x: -1000,
                     scrub: true,
-                    stagger: .2,
                     easing: "power1.out",
                 })
-            gsap.to('.itsme1', {
-                scrollTrigger: {
-                    trigger: '.info__desc1',
-                    scrub: true,
-                    stagger: .2,
-                }, x: -3100
-            })
-            gsap.to('.itsme2', {
-                scrollTrigger: {
-                    trigger: '.info__desc2',
-                    scrub: true,
-                    stagger: .2,
-                }, x: -3000
-            })
-            gsap.to('.itsme3', {
-                scrollTrigger: {
-                    trigger: '.info__desc3',
-                    scrub: true,
-                    stagger: .2,
-                }, x: -3000
-            })
-            gsap.to('.itsme4', {
-                scrollTrigger: {
-                    trigger: '.info__desc4',
-                    scrub: true,
-                    stagger: .2,
-                }, x: -3000
-            })
-            gsap.to('.itsme5', {
-                scrollTrigger: {
-                    trigger: '.info__desc5',
-                    scrub: true,
-                    stagger: .2,
-                }, x: -3000
-            })
+                .to('.itsme1', {
+                    scrollTrigger: {
+                        trigger: '.info__desc1',
+                        scrub: true,
+                        easing: "power1.out",
+                    }, x: -4100
+                })
+                .to('.itsme2', {
+                    scrollTrigger: {
+                        trigger: '.info__desc2',
+                        scrub: true,
+                        easing: "power1.out",
+                    }, x: -4000
+                })
+                .to('.itsme3', {
+                    scrollTrigger: {
+                        trigger: '.info__desc3',
+                        scrub: true,
+                        easing: "power1.out",
+                    }, x: -4000
+                })
+                .to('.itsme4', {
+                    scrollTrigger: {
+                        trigger: '.info__desc4',
+                        scrub: true,
+                        easing: "power1.out",
+                    }, x: -4000
+                })
+                .to('.itsme5', {
+                    scrollTrigger: {
+                        trigger: '.info__desc5',
+                        scrub: true,
+                        easing: "power1.out",
+                    }, x: -4000
+                })
 
             // 아이콘
             gsap.to('.icon1', {

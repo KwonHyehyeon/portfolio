@@ -4,13 +4,13 @@
 }
 
 /* sec1 */
-.sec1-1 {
+.sec1 {
     display: flex;
     flex-wrap: wrap;
 }
 
-/* sec1-1 왼쪽 */
-.sec1-1 .sec1-left {
+/* sec1 왼쪽 */
+.sec1 .sec1-left {
     width: 50%;
     position: sticky;
     top: 0px;
@@ -23,7 +23,7 @@
     position: relative;
 }
 
-.sec1-1 .sec1-tit>h2 {
+.sec1 .sec1-tit>h2 {
     font-size: 14vw;
     font-family: 'Thesignature';
     text-align: center;
@@ -149,8 +149,8 @@
 /* 메인 로고 */
 .sec1-left .main__logo {
     position: fixed;
-    top: 79%;
-    left: 3%;
+    top: 43vw;
+    left: 1vw;
     background-color: rgba(225, 225, 225, 0.1);
     /* 선택이나 클릭 안되게 할 때 */
     user-select: none;
@@ -161,7 +161,12 @@
         /* style 2에 트랜스폼줬으니 여기도 줘야함 */
         transform 0.6s,
         border-radius 0.3s;
-    z-index: 9999;
+    z-index: 99999;
+}
+
+.sec1-left .main__logo a {
+    z-index: 99999;
+
 }
 
 .circle {
@@ -174,7 +179,6 @@
     justify-content: center;
     align-items: center;
     position: fixed;
-    z-index: 1000;
 }
 
 .logo {
@@ -216,7 +220,7 @@
 }
 
 /* sec 1-1 오른쪽 */
-.sec1-1 .sec1-right {
+.sec1 .sec1-right {
     width: 50%;
     /* height: 5000px; */
     background: #58BEF1;
@@ -366,7 +370,7 @@
 
 .main__info .myinfo1>figure {
     display: inline-block;
-    border: 13px solid #FF8B39;
+    border: 0.8vw solid #FF8B39;
     border-radius: 15px;
     z-index: 1;
 
@@ -394,7 +398,7 @@
 }
 
 .main__info .myinfo2>img {
-    border: 13px solid #5BB25B;
+    border: 0.8vw solid #5BB25B;
     border-radius: 15px;
     margin-top: 20vw;
 }
@@ -422,7 +426,7 @@
 }
 
 .main__info .myinfo3>img {
-    border: 13px solid #FF6CA4;
+    border: 0.8vw solid #FF6CA4;
     border-radius: 15px;
     margin-top: 20vw;
 }
@@ -450,7 +454,7 @@
 }
 
 .main__info .myinfo4>img {
-    border: 13px solid #E8AA09;
+    border: 0.8vw solid #E8AA09;
     border-radius: 15px;
     margin-top: 20vw;
 }
@@ -478,7 +482,7 @@
 }
 
 .main__info .myinfo5>img {
-    border: 13px solid #90595D;
+    border: 0.8vw solid #90595D;
     border-radius: 15px;
     margin-top: 20vw;
 }
@@ -488,6 +492,7 @@
     width: 20vw;
     margin-left: 1vw;
     word-break: keep-all;
+    margin-bottom: 20vw;
 }
 
 .myinfo5 .icon5 {
@@ -495,24 +500,61 @@
     height: 10vw;
     border: 0 !important;
     position: absolute;
-    top: -12%;
+    top: -10%;
     left: -12%;
     transform: rotate(40deg);
 }
 
 /* sec2 */
-.sec1-2 {
+.sec2 {
     display: flex;
     flex-wrap: wrap;
 }
 
-.sec1-2 .left {
+.sec2 .sec2-left {
     width: 50%;
     height: 5000px;
     background: #58BEF1;
+
 }
 
-.sec1-2 .right {
+.works__title {
+    margin: 2vw 2vw 2vw 2vw;
+    z-index: 2;
+
+}
+
+
+.works__tit {
+    font-family: 'OKChan';
+    font-size: 9vw;
+    font-weight: normal;
+    color: #fff;
+    -webkit-text-stroke: 0.4px #B680FC;
+    line-height: 1;
+    text-shadow: -2px 0 #B680FC, 0 2px #B680FC, 2px 0 #B680FC, 0 -2px #B680FC;
+
+}
+
+.works-title1 {
+    position: sticky;
+    top: 3vh;
+    height: 100vh;
+}
+
+.works-title2 {
+    position: sticky;
+    top: 22vh;
+    height: 81vh;
+}
+
+.works-title3 {
+    position: sticky;
+    top: 41vh;
+    height: 62vh;
+}
+
+.sec2 .sec2-right {
     position: sticky;
     top: 0px;
     width: 50%;
@@ -521,13 +563,34 @@
     overflow: hidden;
 }
 
+.sec2-tit {
+    position: relative;
+}
+
+.sec2 .sec2-tit>h2 {
+    font-size: 14vw;
+    font-family: 'Thesignature';
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 50px;
+    z-index: 1000;
+}
+
+.works>img {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    padding-top: 13vh;
+}
+
 /* sec3 */
-.sec1-3 {
+.sec3 {
     display: flex;
     flex-wrap: wrap;
 }
 
-.sec1-3 .left {
+.sec3 .sec3-left {
     width: 50%;
     height: 100vh;
     position: sticky;
@@ -536,26 +599,26 @@
     overflow: hidden;
 }
 
-.sec1-3 .right {
+.sec3 .sec3-right {
     width: 50%;
     height: 5000px;
     background: #58BEF1;
 }
 
 
-.sec1-4 {
+.sec4 {
     display: flex;
     flex-wrap: wrap;
 }
 
-.sec1-4 .left {
+.sec4 .sec4-left {
     width: 50%;
     height: 5000px;
     background: #58BEF1;
 
 }
 
-.sec1-4 .right {
+.sec4 .sec4-right {
     position: sticky;
     top: 0px;
     width: 50%;
