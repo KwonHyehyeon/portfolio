@@ -612,6 +612,59 @@
     z-index: 1000;
 }
 
+.works1 {
+    font-size: 7vw;
+    font-family: 'Thesignature';
+    font-weight: 700;
+    color: #ff8b38;
+    white-space: nowrap;
+    /* -webkit-text-stroke: 1px white; */
+}
+
+.works2 {
+    font-size: 7vw;
+    font-family: 'Thesignature';
+    font-weight: 700;
+    color: #5EBB5E;
+    white-space: nowrap;
+    /* -webkit-text-stroke: 1px white; */
+}
+
+.works3 {
+    font-size: 7vw;
+    font-family: 'Thesignature';
+    font-weight: 700;
+    color: #FF6CA4;
+    white-space: nowrap;
+    /* -webkit-text-stroke: 1px white; */
+}
+
+.works4 {
+    font-size: 7vw;
+    font-family: 'Thesignature';
+    font-weight: 700;
+    color: #F9D846;
+    white-space: nowrap;
+    /* -webkit-text-stroke: 1px white; */
+}
+
+.works5 {
+    font-size: 7vw;
+    font-family: 'Thesignature';
+    font-weight: 700;
+    color: #8F595D;
+    white-space: nowrap;
+    /* -webkit-text-stroke: 1px white; */
+}
+
+.works6 {
+    font-size: 7vw;
+    font-family: 'Thesignature';
+    font-weight: 700;
+    color: #8F595D;
+    white-space: nowrap;
+    /* -webkit-text-stroke: 1px white; */
+}
 
 
 .works>img {
