@@ -106,6 +106,7 @@
 
 @media (max-width: 1096px) {
     .sec4-about>img {
+        margin-top: 13vh;
         background-color: rgb(195, 118, 250);
         border-radius: 50%;
     }
