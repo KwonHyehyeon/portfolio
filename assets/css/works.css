@@ -849,6 +849,44 @@
 
 }
 
+.react2__sticky {
+    position: relative;
+}
+
+.react2__info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 30vw;
+    height: 30vh;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.react2__info>a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5vw;
+    background-color: #fff;
+    padding: 0.5vw 2vw;
+    border-radius: 1.5vw;
+    font-family: 'NanumBarunpen';
+    opacity: 0;
+
+}
+
+.react2__sticky:hover .react2__info {
+    opacity: 1;
+}
+
+.react2__sticky:hover .react2__info>a {
+    opacity: 1;
+}
+
 .react__3rd>figcaption {
     width: 30vw;
     text-align: right;
