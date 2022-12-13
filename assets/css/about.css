@@ -581,7 +581,6 @@
         text-align: right;
     }
 
-
     .about__tit {
         font-size: 15vw;
     }
@@ -611,8 +610,8 @@
     }
 
     .main__info img {
-        width: 20vw;
-        height: 30vw;
+        width: 40vw;
+        height: 60vw;
         float: left;
     }
 
