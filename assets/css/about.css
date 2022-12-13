@@ -516,6 +516,7 @@
 }
 
 /* 미디어쿼리 */
+
 @media (max-width: 1200px) {
     .sec1 {
         display: block;
@@ -777,7 +778,7 @@
 @media (max-width: 1096px) {
     .about>img {
         margin-top: 13vh;
-        background-color: rgb(235, 199, 255);
+        background-color: #f1a3b8;
         border-radius: 50%;
 
     }
