@@ -650,7 +650,7 @@
     .main__info .myinfo2>img {
         border: 0.8vw solid #5BB25B;
         border-radius: 15px;
-        margin-top: 20vw;
+        margin-top: 5vw;
     }
 
     .main__info .myinfo2 .info__desc2 {
@@ -658,6 +658,7 @@
         width: 20vw;
         margin-left: 1vw;
         word-break: keep-all;
+        margin-bottom: 10vw;
     }
 
     .myinfo2 .icon2 {
@@ -678,7 +679,7 @@
     .main__info .myinfo3>img {
         border: 0.8vw solid #FF6CA4;
         border-radius: 15px;
-        margin-top: 20vw;
+        margin-top: 5vw;
     }
 
     .main__info .myinfo3 .info__desc3 {
@@ -686,6 +687,7 @@
         width: 20vw;
         margin-left: 1vw;
         word-break: keep-all;
+        margin-bottom: 10vw;
     }
 
     .myinfo3 .icon3 {
@@ -694,19 +696,19 @@
         border: 0 !important;
         position: absolute;
         top: -10%;
-        left: -10%;
+        left: -5%;
         transform: rotate(-10deg);
     }
 
     .main__info .myinfo4 {
         position: relative;
-        margin-left: 3vw;
+        margin-left: 45vw;
     }
 
     .main__info .myinfo4>img {
         border: 0.8vw solid #E8AA09;
         border-radius: 15px;
-        margin-top: 20vw;
+        margin-top: 5vw;
     }
 
     .main__info .myinfo4 .info__desc4 {
@@ -714,6 +716,7 @@
         width: 20vw;
         margin-left: 1vw;
         word-break: keep-all;
+        margin-bottom: 10vw;
     }
 
     .myinfo4 .icon4 {
@@ -728,13 +731,13 @@
 
     .main__info .myinfo5 {
         position: relative;
-        margin-left: 22vw;
+        margin-left: 18vw;
     }
 
     .main__info .myinfo5>img {
         border: 0.8vw solid #90595D;
         border-radius: 15px;
-        margin-top: 20vw;
+        margin-top: 5vw;
     }
 
     .main__info .myinfo5 .info__desc5 {
@@ -742,7 +745,8 @@
         width: 20vw;
         margin-left: 1vw;
         word-break: keep-all;
-        margin-bottom: 20vw;
+        margin-bottom: 10vw;
+
     }
 
     .myinfo5 .icon5 {
@@ -751,7 +755,7 @@
         border: 0 !important;
         position: absolute;
         top: -10%;
-        left: -12%;
+        left: -5%;
         transform: rotate(40deg);
     }
 
