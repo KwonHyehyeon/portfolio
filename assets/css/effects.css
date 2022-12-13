@@ -52,9 +52,9 @@
     font-size: 9vw;
     font-weight: normal;
     color: #fff;
-    -webkit-text-stroke: 0.4px #58BEF1;
+    -webkit-text-stroke: 0.4px #40bef9;
     line-height: 1;
-    text-shadow: -2px 0 #58BEF1, 0 2px #58BEF1, 2px 0 #58BEF1, 0 -2px #58BEF1;
+    text-shadow: -2px 0 #40bef9, 0 2px #40bef9, 2px 0 #40bef9, 0 -2px #40bef9;
 }
 
 .effects-titl {
