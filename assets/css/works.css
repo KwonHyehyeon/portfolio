@@ -1213,7 +1213,7 @@ figcaption {
 @media (max-width: 1096px) {
     .works>img {
         margin-top: 13vh;
-        background-color: rgb(255, 255, 161);
+        background-color: #fff38b;
         border-radius: 50%;
 
     }
