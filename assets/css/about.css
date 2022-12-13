@@ -583,12 +583,7 @@
 
 
     .about__tit {
-        font-size: 12vw;
-        font-weight: normal;
-        color: #fff;
-        -webkit-text-stroke: 0.4px #FC80A1;
-        line-height: 1;
-        text-shadow: -2px 0 #FC80A1, 0 2px #FC80A1, 2px 0 #FC80A1, 0 -2px #FC80A1;
+        font-size: 15vw;
     }
 
     .about-titl {
@@ -617,23 +612,13 @@
 
     .main__info img {
         width: 20vw;
-        height: 28vw;
+        height: 30vw;
         float: left;
-    }
-
-    .main__info p {
-        width: 320px;
-        font-family: 'NanumBarunpen';
-        color: #fff;
-        margin-top: 0.5rem;
-        font-size: 1.3vw;
-        line-height: 1.4;
     }
 
     .main__info .myinfo1 {
         position: relative;
         margin-left: 18vw;
-
     }
 
     .main__info .myinfo1>img {
@@ -651,17 +636,14 @@
     }
 
     .myinfo1 .icon1 {
-        width: 10vw;
-        height: 9vw;
-        border: 0 !important;
         position: absolute;
         top: -12%;
-        left: -15%;
+        left: -5%;
     }
 
     .main__info .myinfo2 {
         position: relative;
-        margin-left: 5vw;
+        margin-left: 50vw;
 
     }
 
