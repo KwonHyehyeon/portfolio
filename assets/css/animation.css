@@ -490,3 +490,37 @@
         transform: translate(-50%, -50%) rotate(360deg)
     }
 }
+
+
+
+/* .webs1 {
+    animation: marquee-r 50000ms linear infinite;
+}
+
+.webs2 {
+    animation: marquee 50000ms linear infinite;
+}
+
+.webs3 {
+    animation: marquee-r 50000ms linear infinite;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes marquee-r {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+} */

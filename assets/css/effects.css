@@ -36,7 +36,7 @@
 
 .sec3 .sec3-right {
     width: 50%;
-    background: #7F957E;
+    background: #8bbef2;
 }
 
 .effects__title {
@@ -52,9 +52,9 @@
     font-size: 9vw;
     font-weight: normal;
     color: #fff;
-    -webkit-text-stroke: 0.4px #40bef9;
+    -webkit-text-stroke: 0.4px #b680fc;
     line-height: 1;
-    text-shadow: -2px 0 #40bef9, 0 2px #40bef9, 2px 0 #40bef9, 0 -2px #40bef9;
+    text-shadow: -2px 0 #b680fc, 0 2px #b680fc, 2px 0 #b680fc, 0 -2px #b680fc;
 }
 
 .effects-titl {
@@ -107,7 +107,16 @@
     font-weight: 700;
 }
 
-
+.effects>img {
+    position: absolute;
+    width: 100%;
+    top: 5%;
+    left: 0;
+    padding-top: 13vh;
+    display: block;
+    transition: all 0.3s;
+    z-index: 9999;
+}
 
 
 .js>h3 {
@@ -1310,7 +1319,7 @@
     .sec3 .sec3-left {
         width: 100%;
         position: relative;
-        background: #7F957E;
+        background: #8bbef2;
 
     }
 
@@ -1345,7 +1354,7 @@
 @media (max-width: 1096px) {
     .effects>img {
         margin-top: 13vh;
-        background-color: rgb(146, 176, 149);
+        background-color: #6daded;
         border-radius: 50%;
 
     }

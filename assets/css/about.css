@@ -19,6 +19,8 @@
     background: #F4B5C6;
 }
 
+
+
 .sec1-tit {
     position: relative;
 }
@@ -128,28 +130,21 @@
     color: rgba(0, 0, 0, 0);
 }
 
-.m1 {
-    position: relative;
-    z-index: 0;
-    display: block;
-    width: 100%;
-    height: 100vh;
-    margin: 0 !important;
-}
 
 .about>img {
     position: absolute;
-    top: 10%;
+    top: 0%;
     left: 0;
-    padding-top: 13vh;
+    display: block;
+    padding-top: 20vh;
+    transition: opacity 0.17s;
 }
 
-.about>img:nth-child(2) {
-    position: absolute;
-    top: 3%;
-    left: 0;
-    padding-top: 13vh;
+.about:hover img:last-child {
+    opacity: 0;
 }
+
+
 
 /* 메인 로고 */
 .main__logo {
@@ -199,12 +194,6 @@
     height: 100%;
     color: #fff;
 }
-
-/* @keyframes rotateText {
-    0% {
-        transform: rotate(360deg);
-    }
-} */
 
 .text span {
     position: absolute;
@@ -518,6 +507,8 @@
 /* 미디어쿼리 */
 
 @media (max-width: 1200px) {
+
+    /* sec1 */
     .sec1 {
         display: block;
     }
@@ -527,15 +518,16 @@
         width: 100%;
         position: relative;
         top: 0px;
-        height: 100vh;
-        overflow: hidden;
+        height: 120vh;
         background: #F4B5C6;
     }
 
     .sec1 .sec1-tit>h2 {
         font-size: 25vw;
+        margin: auto;
     }
 
+    /* sec1 오른쪽 */
     .sec1 .sec1-right {
         width: 100%;
         padding: 2vw 0;
@@ -573,7 +565,7 @@
         font-size: 2.5vw;
         line-height: 1.4;
         margin-right: 5vw;
-        margin-bottom: 0vw;
+        margin-bottom: 15vw;
     }
 
     .about__title {
@@ -585,28 +577,22 @@
         font-size: 15vw;
     }
 
-    .about-titl {
-        position: sticky;
-        top: 10vh;
-        height: 100vh;
-    }
-
     .about-title1 {
         position: sticky;
-        top: 5vh;
-        height: 100vh;
+        top: 5vw;
+        height: 100vw;
     }
 
     .about-title2 {
         position: sticky;
-        top: 25vh;
-        height: 80vh;
+        top: 22vw;
+        height: 83vw;
     }
 
     .about-title3 {
         position: sticky;
-        top: 45vh;
-        height: 60vh;
+        top: 30vw;
+        height: 66vw;
     }
 
     .main__info img {
@@ -615,117 +601,101 @@
         float: left;
     }
 
-    .main__info .myinfo1 {
-        position: relative;
-        margin-left: 18vw;
-    }
-
     .main__info .myinfo1>img {
         display: inline-block;
         border: 0.8vw solid #FF8B39;
         border-radius: 15px;
         z-index: 1;
-
+        margin-bottom: 2vw;
     }
 
     .main__info .myinfo1 .info__desc1 {
-        width: 20vw;
-        text-align: center;
-        margin-left: 1vw;
+        width: 40vw;
+        font-size: 2.7vw;
+        margin-bottom: 10vw;
+        word-break: keep-all;
     }
 
     .myinfo1 .icon1 {
-        position: absolute;
+        width: 19vw;
+        height: 18vw;
         top: -12%;
-        left: -5%;
+        left: -10%;
     }
 
     .main__info .myinfo2 {
-        position: relative;
-        margin-left: 50vw;
+        margin-left: 45vw;
 
     }
 
     .main__info .myinfo2>img {
         border: 0.8vw solid #5BB25B;
         border-radius: 15px;
-        margin-top: 5vw;
+        margin-bottom: 2vw;
     }
 
     .main__info .myinfo2 .info__desc2 {
-        text-align: center;
-        width: 20vw;
-        margin-left: 1vw;
-        word-break: keep-all;
+        width: 40vw;
+        font-size: 2.7vw;
         margin-bottom: 10vw;
+        word-break: keep-all;
     }
 
     .myinfo2 .icon2 {
-        width: 10vw;
-        height: 10vw;
-        border: 0 !important;
-        position: absolute;
+        width: 19vw;
+        height: 18vw;
         top: -8%;
-        left: 40%;
-        transform: rotate(40deg);
+        left: 64%;
     }
 
     .main__info .myinfo3 {
         position: relative;
-        margin-left: 20vw;
+        margin-left: 8vw;
     }
 
     .main__info .myinfo3>img {
         border: 0.8vw solid #FF6CA4;
         border-radius: 15px;
-        margin-top: 5vw;
+        margin-bottom: 2vw;
     }
 
     .main__info .myinfo3 .info__desc3 {
-        text-align: center;
-        width: 20vw;
-        margin-left: 1vw;
-        word-break: keep-all;
+        width: 40vw;
+        font-size: 2.7vw;
         margin-bottom: 10vw;
+        word-break: keep-all;
     }
 
     .myinfo3 .icon3 {
-        width: 10vw;
-        height: 10vw;
-        border: 0 !important;
-        position: absolute;
-        top: -10%;
-        left: -5%;
-        transform: rotate(-10deg);
+        width: 19vw;
+        height: 18vw;
+        top: -8%;
+        left: 35%;
     }
 
     .main__info .myinfo4 {
         position: relative;
-        margin-left: 45vw;
+        margin-left: 50vw;
     }
 
     .main__info .myinfo4>img {
         border: 0.8vw solid #E8AA09;
         border-radius: 15px;
-        margin-top: 5vw;
+        margin-bottom: 2vw;
     }
 
     .main__info .myinfo4 .info__desc4 {
-        text-align: center;
-        width: 20vw;
-        margin-left: 1vw;
-        word-break: keep-all;
+        width: 40vw;
+        font-size: 2.7vw;
         margin-bottom: 10vw;
+        word-break: keep-all;
     }
 
     .myinfo4 .icon4 {
-        width: 10vw;
-        height: 10vw;
-        border: 0 !important;
-        position: absolute;
+        width: 19vw;
+        height: 18vw;
         top: -10%;
-        left: 35%;
-        transform: rotate(10deg);
+        left: -20%;
     }
 
     .main__info .myinfo5 {
@@ -736,28 +706,22 @@
     .main__info .myinfo5>img {
         border: 0.8vw solid #90595D;
         border-radius: 15px;
-        margin-top: 5vw;
+        margin-bottom: 2vw;
     }
 
     .main__info .myinfo5 .info__desc5 {
-        text-align: center;
-        width: 20vw;
-        margin-left: 1vw;
+        width: 40vw;
+        font-size: 2.7vw;
+        margin-bottom: 20vw;
         word-break: keep-all;
-        margin-bottom: 10vw;
-
     }
 
     .myinfo5 .icon5 {
-        width: 10vw;
-        height: 10vw;
-        border: 0 !important;
-        position: absolute;
-        top: -10%;
-        left: -5%;
-        transform: rotate(40deg);
+        width: 19vw;
+        height: 18vw;
+        top: -12%;
+        left: -12%;
     }
-
 }
 
 @media (max-width: 1096px) {
@@ -788,5 +752,6 @@
         margin-top: 35vw;
         margin-right: 5vw;
         width: 40vw;
+
     }
 }
