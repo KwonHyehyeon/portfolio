@@ -1622,25 +1622,11 @@
     }
 
     .parallax__title>h3 {
-        font-size: 1.5vw;
-        font-weight: 600;
-        color: #fff;
-        font-family: 'NanumBarunpen';
-        text-decoration: underline;
-        text-underline-offset: 0.4vw;
-        margin-top: 0.5vw;
+        font-size: 3vw;
     }
 
     .parallax__go {
-        height: 4vh;
-        display: inline-block;
-        background-color: #fff;
-        color: #000;
-        padding: 0.5vw 4vw;
-        border-radius: 20px;
-        font-family: 'NanumBarunpen';
-        font-size: 1.4vw;
-        line-height: 1.6;
+        font-size: 2vw;
     }
 
     .parallax__img__sticky {
@@ -1650,21 +1636,17 @@
     }
 
     .parallax .parallax__img {
+        height: 49vh;
         border-radius: 0.7vw;
-        margin: 2vw;
+        margin: 0 10vw;
         overflow: hidden;
     }
 
     .parallax__desc {
         position: sticky;
         top: 67vh;
-        height: 32vh;
-        color: #fff;
-        font-family: 'NanumBarunpen';
-        font-size: 1.3vw;
-        line-height: 1.4;
-        margin: 2vw;
-        text-align: center;
+        height: 30vh;
+        font-size: 2.2vw;
     }
 
     .parallax1,
@@ -1672,51 +1654,20 @@
         display: none;
     }
 
-
-
-    .parallax2 figure>img {
-        border-radius: 0.7vw;
-
-    }
-
-    .parallax2 figure:nth-child(1),
-    .parallax2 figure:nth-child(2) {
-        margin-right: 1vw;
-    }
-
     .p__desc {
         display: none;
     }
 
     .game__title {
-        display: flex;
-        justify-content: space-between;
-        position: sticky;
-        top: 8vh;
-        height: 95vh;
-        margin: 2vw;
+        margin: 5vw;
     }
 
     .game__title>h3 {
-        font-size: 1.5vw;
-        font-weight: 600;
-        color: #fff;
-        font-family: 'NanumBarunpen';
-        text-decoration: underline;
-        text-underline-offset: 0.4vw;
-        margin-top: 0.5vw;
+        font-size: 3vw;
     }
 
     .game__go {
-        height: 4vh;
-        display: inline-block;
-        background-color: #fff;
-        color: #000;
-        padding: 0.5vw 4vw;
-        border-radius: 20px;
-        font-family: 'NanumBarunpen';
-        font-size: 1.4vw;
-        line-height: 1.6;
+        font-size: 2vw;
     }
 
     .game__img__sticky {
@@ -1726,291 +1677,24 @@
     }
 
     .game .game__img {
+        height: 49vh;
         border-radius: 0.7vw;
-        margin: 2vw;
+        margin: 0 10vw;
         overflow: hidden;
     }
 
     .game__desc {
-        position: sticky;
-        top: 20vh;
-        height: 83vh;
-        color: #fff;
-        font-family: 'NanumBarunpen';
-        font-size: 1.3vw;
-        line-height: 1.4;
-        margin: 2vw;
-        text-align: center;
+        font-size: 2.2vw;
     }
 
     .game__desc__sticky {
-        position: sticky;
-        top: 80vh;
-        height: 20vh;
-        color: #fff;
-        font-family: 'NanumBarunpen';
-        font-size: 1.3vw;
-        line-height: 1.4;
-        margin: 2vw;
-        text-align: center;
+        font-size: 2.2vw;
     }
 
-    .game1>p {
-        position: sticky;
-        top: 5vh;
-        height: 99vh;
-        font-size: 1.3vw;
-        font-weight: normal;
-        color: #fff;
-        font-family: 'NanumBarunpen';
-        margin: 2vw;
-        text-underline-offset: 0.4vw;
+    .g_desc {
+        display: none;
     }
 
-    .game1__title {
-        display: flex;
-        justify-content: space-between;
-        position: sticky;
-        top: 27vh;
-        height: 77vh;
-        margin: 2vw;
-    }
-
-    .game1__title>h3 {
-        font-size: 1.5vw;
-        font-weight: 600;
-        color: #fff;
-        font-family: 'NanumBarunpen';
-        text-decoration: underline;
-        text-underline-offset: 0.4vw;
-        margin-top: 0.5vw;
-    }
-
-    .game1__go {
-        height: 4vh;
-        display: inline-block;
-        background-color: #fff;
-        color: #000;
-        padding: 0.5vw 4vw;
-        border-radius: 20px;
-        font-family: 'NanumBarunpen';
-        font-size: 1.4vw;
-        line-height: 1.6;
-    }
-
-    .game1__img__sticky {
-        position: sticky;
-        top: 78vh;
-        height: 68.5vh;
-        display: flex;
-        margin: 2vw;
-    }
-
-    .game1 .game1__img {
-        width: 70vw;
-        margin: 2vw;
-        overflow: hidden;
-    }
-
-    .game1__img>img {
-        width: 100%;
-
-    }
-
-    .game1__desc {
-        color: #fff;
-        font-family: 'NanumBarunpen';
-        font-size: 1.3vw;
-        line-height: 1.4;
-        margin: 15vw 2vw 2vw 2vw;
-        word-break: keep-all;
-    }
-
-    .game2__title {
-        display: flex;
-        justify-content: space-between;
-        position: sticky;
-        top: 8vh;
-        height: 95vh;
-        margin: 2vw;
-    }
-
-    .game2__title>h3 {
-        font-size: 1.5vw;
-        font-weight: 600;
-        color: #fff;
-        font-family: 'NanumBarunpen';
-        text-decoration: underline;
-        text-underline-offset: 0.4vw;
-        margin-top: 0.5vw;
-    }
-
-    .game2__go {
-        height: 4vh;
-        display: inline-block;
-        background-color: #fff;
-        color: #000;
-        padding: 0.5vw 2vw;
-        border-radius: 20px;
-        font-family: 'NanumBarunpen';
-        font-size: 1.4vw;
-        line-height: 1.6;
-    }
-
-    .game2__img__sticky {
-        position: sticky;
-        top: 22vh;
-        height: 85vh;
-    }
-
-    .game2 .game2__img {
-        margin: 2vw;
-        overflow: hidden;
-    }
-
-    .game2 .game2__img>img {
-        display: block;
-        margin: 0 auto;
-        width: 30vw;
-        border-radius: 0.7vw;
-    }
-
-    .game2__desc {
-        position: sticky;
-        top: 70vh;
-        height: 30vh;
-        color: #fff;
-        font-family: 'NanumBarunpen';
-        font-size: 1.3vw;
-        line-height: 1.4;
-        margin: 2vw;
-        text-align: center;
-    }
-
-
-    .game3__title {
-        display: flex;
-        justify-content: space-between;
-        position: sticky;
-        top: 8vh;
-        height: 95vh;
-        margin: 2vw;
-    }
-
-    .game3__title>h3 {
-        font-size: 1.5vw;
-        font-weight: 600;
-        color: #fff;
-        font-family: 'NanumBarunpen';
-        text-decoration: underline;
-        text-underline-offset: 0.4vw;
-        margin-top: 0.5vw;
-    }
-
-    .game3__go {
-        height: 4vh;
-        display: inline-block;
-        background-color: #fff;
-        color: #000;
-        padding: 0.5vw 2vw;
-        border-radius: 20px;
-        font-family: 'NanumBarunpen';
-        font-size: 1.4vw;
-        line-height: 1.6;
-    }
-
-    .game3__img__sticky {
-        position: sticky;
-        top: 22vh;
-        height: 85vh;
-    }
-
-    .game3 .game3__img {
-        margin: 2vw;
-        overflow: hidden;
-    }
-
-    .game3 .game3__img>img {
-        display: block;
-        margin: 0 auto;
-        width: 25vw;
-        border-radius: 0.7vw;
-    }
-
-    .game3__desc {
-        position: sticky;
-        top: 70vh;
-        height: 25vh;
-        color: #fff;
-        font-family: 'NanumBarunpen';
-        font-size: 1.3vw;
-        line-height: 1.4;
-        margin: 2vw;
-        text-align: center;
-    }
-
-
-    .game4__title {
-        display: flex;
-        justify-content: space-between;
-        position: sticky;
-        top: 8vh;
-        height: 95vh;
-        margin: 2vw;
-    }
-
-    .game4__title>h3 {
-        font-size: 1.5vw;
-        font-weight: 600;
-        color: #fff;
-        font-family: 'NanumBarunpen';
-        text-decoration: underline;
-        text-underline-offset: 0.4vw;
-        margin-top: 0.5vw;
-    }
-
-    .game4__go {
-        height: 4vh;
-        display: inline-block;
-        background-color: #fff;
-        color: #000;
-        padding: 0.5vw 2vw;
-        border-radius: 20px;
-        font-family: 'NanumBarunpen';
-        font-size: 1.4vw;
-        line-height: 1.6;
-    }
-
-    .game4__img__sticky {
-        position: sticky;
-        top: 30vh;
-        height: 77vh;
-    }
-
-    .game4 .game4__img {
-        margin: 2vw;
-        overflow: hidden;
-        display: flex;
-    }
-
-    .game4 .game4__img>img {
-        display: block;
-        margin: 0 auto;
-        width: 21vw;
-        border-radius: 0.7vw;
-    }
-
-    .game4__desc {
-        position: sticky;
-        top: 60vh;
-        height: 40vh;
-        color: #fff;
-        font-family: 'NanumBarunpen';
-        font-size: 1.3vw;
-        line-height: 1.4;
-        margin: 2vw;
-        text-align: center;
-    }
 }
 
 @media (max-width: 1096px) {

@@ -8,7 +8,7 @@
 .sec4 .sec4-left {
     width: 50%;
     background: #ffe77f;
-
+    position: relative;
 }
 
 .sec4__tit {
@@ -73,6 +73,67 @@
     left: 0;
     padding-top: 8vh;
 }
+
+.myinfo {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    width: 20vw;
+    border-radius: 1vw;
+    color: #000;
+    font-weight: bold;
+    font-family: 'GmarketSans';
+    color: #fff;
+}
+
+.myinfo .mail {
+    display: flex;
+    width: 3vw;
+    height: 3vw;
+    font-size: 1.7vw;
+    margin-left: 0.4vw;
+}
+
+.myinfo .mail>img {
+    margin-right: 1vw;
+}
+
+.myinfo .mail>span {
+    display: block;
+    margin: auto 0;
+    transition: all 0.3s;
+}
+
+.myinfo .mail>span:hover {
+    color: #000;
+}
+
+.myinfo .phone {
+    display: flex;
+    width: 4vw;
+    height: 4vw;
+    font-size: 1.7vw;
+}
+
+.myinfo .phone>img {
+    margin-right: 0.4vw;
+}
+
+.myinfo .phone>span {
+    display: block;
+    margin: auto 0;
+    transition: all 0.3s;
+}
+
+.myinfo .phone>span:hover {
+    color: #000;
+}
+
+/* .myinfo .myinfo__svg1 {
+    width: 50px;
+    height: 50px;
+    background: url(../img/myinfo.svg) -50px -100px;
+} */
 
 @media (max-width: 1200px) {
     .sec4 {
