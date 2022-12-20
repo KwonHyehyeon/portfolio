@@ -47,17 +47,15 @@ function imagesProgress() {
         stagger: 0.03,
         ease: "elastic.out(0.5, 0.5)",
       });
-
-      gsap.to(".img-wrap .heart", { opacity: 1, duration: 0.5, delay: 3 });
-      gsap.to(".img-wrap .monkey", { opacity: 1, duration: 0.5, delay: 3.4 });
-      gsap.to(".img-wrap .duck", { opacity: 1, duration: 0.5, delay: 3.8 });
-      gsap.to("#header", {
-        top: 0,
+      gsap.from(".about>img", {
         opacity: 1,
-        duration: 2.5,
-        delay: 2,
-        ease: "circ.out",
+        // y: "-100vh",
+        duration: 4,
+        delay: 3,
+        stagger: 0.03,
+        ease: "elastic.out(0.5, 0.5)",
       });
+
       gsap.to(".gift", { bottom: 0, duration: 2, delay: 3.5 });
     }
     if (current > 99.9) {
