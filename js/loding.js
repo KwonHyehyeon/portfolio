@@ -23,18 +23,40 @@ function imagesProgress() {
         .animate({ opacity: "0" }, 1500, "easeInOutQuint")
         .animate({ top: "-100%" }, 1500);
 
-      gsap.to(".sec1 .sec1-tit h2", {
+      gsap.from(".sec1", {
         opacity: 1,
-        y: 0,
-        duration: 2.5,
-        delay: 2,
+        x: "100%",
+        duration: 1,
+        delay: 0.1,
         stagger: 0.1,
-        ease: "elastic.out(1, 0.3)",
+        // ease: "elastic.in(1, 1)",
       });
-      gsap.to(".main .main-left p span", {
+      gsap.to(".sec1", {
+        opacity: 1,
+        x: "0%",
+        duration: 5,
+        delay: 1,
+        stagger: 0.1,
+        ease: "elastic.out(0, 0.3)",
+      });
+      gsap.to(".sec1-right", {
+        opacity: 1,
+        y: "-100vh",
+        duration: 0.2,
+        delay: 2,
+        stagger: 0.03,
+      });
+      gsap.from(".sec1-tit > h2", {
+        opacity: 1,
+        y: "-100vh",
+        duration: 0.2,
+        delay: 3,
+        stagger: 0.03,
+      });
+      gsap.to(".sec1-tit > h2", {
         opacity: 1,
         duration: 0.2,
-        delay: 3.5,
+        delay: 3,
         stagger: 0.03,
       });
       gsap.to(".img-wrap .heart", { opacity: 1, duration: 0.5, delay: 3 });

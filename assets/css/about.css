@@ -3,6 +3,7 @@
 .sec1 {
     display: flex;
     flex-wrap: wrap;
+    background: #F4B5C6;
 }
 
 /* sec1 왼쪽 */
@@ -12,7 +13,7 @@
     top: 0px;
     height: 100vh;
     overflow: hidden;
-    background: #F4B5C6;
+    /* background: #F4B5C6; */
 }
 
 
@@ -212,6 +213,7 @@
     width: 50%;
     /* height: 5000px; */
     background: #58BEF1;
+    margin-top: 100vh;
 }
 
 .right__title {
