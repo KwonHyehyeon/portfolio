@@ -55,8 +55,14 @@ function imagesProgress() {
         stagger: 0.03,
         ease: "elastic.out(0.5, 0.5)",
       });
-
-      gsap.to(".gift", { bottom: 0, duration: 2, delay: 3.5 });
+      gsap.to(".main__logo", {
+        opacity: 1,
+        y: "-850vh",
+        duration: 4,
+        delay: 3,
+        stagger: 0.03,
+        ease: "elastic.out(0.5, 0.5)",
+      });
     }
     if (current > 99.9) {
       current = 100;

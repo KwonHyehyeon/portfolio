@@ -154,15 +154,6 @@
     z-index: 1;
 }
 
-.main__logo1 {
-    position: fixed;
-    bottom: 1vw;
-    right: 1vw;
-    /* 선택이나 클릭 안되게 할 때 */
-    user-select: none;
-    pointer-events: none;
-    z-index: 1;
-}
 
 
 .circle {
